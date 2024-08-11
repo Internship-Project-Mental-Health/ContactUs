@@ -15,9 +15,10 @@ body{
     display: flex;
     justify-content: space-between;
     padding: 50px;
-    max-width: 1200px;
+    /* max-width: 1200px; */
     margin: auto;
-    background-color: #f0dae3;
+    /* background-color: #f0dae3; */
+    background-color: #FCF7F3;
 }
 
 .left {
@@ -58,9 +59,8 @@ textarea,
 select {
     width: calc(50% - 10px);
     padding: 15px;
-    margin: 5px;
+    margin:5px 10px 5px 0px;
     border: 1px solid #ddd;
-    border-radius: 5px;
     font-size: 16px;
     font-style: italic;
 }
@@ -72,30 +72,26 @@ select {
 }
 
 textarea {
-    width: 100%;
+    width: calc(100% - 10px);
     height: 150px;
     margin-bottom: 20px;
 }
 
-select {
-    width: calc(50% - 10px);
-    height: 50px;
-}
-
 .submit-btn {
     padding: 15px 30px;
-    background-color: #e6a77f;
+    background-color: #82215d96;
     border: none;
     border-radius: 5px;
     color: white;
-    font-size: 18px;
+    font-size: 17px;
+    text-transform: uppercase;
     cursor: pointer;
     transition: background-color 0.3s;
     margin-top: 10px;
 }
 
 .submit-btn:hover {
-    background-color: #d59368;
+    background-color: #7a3555;
 }
 
 .container{
@@ -124,7 +120,7 @@ select {
 hr{
     width: 120px;
     height: 4px;
-    background-color: #6d4321;
+    background-color: #6d213f;
     margin:15px  auto;
 }
 
@@ -150,9 +146,9 @@ hr{
     margin: 15px 15px 0;
 }
 
-.tabs button:active{
+.tabs button:focus{
     background-color: #7a3555;
-    border-color: #6d4321;
+    border-color: #6d213f;
     color: #fff;
 }
 
@@ -163,19 +159,17 @@ hr{
     flex-wrap: wrap;
     align-items: center;
     justify-self: center;
-    /* background-color: yellowgreen; */
     padding-top: 40px;
 }
 
 .wid{
     padding: 10px;
-    /* background-color: aliceblue; */
     width: 25%;
     text-align: center;
 }
 
 .icon{
-    color: #E2AB7F;
+    color:#82215d96;
     font-size: 36px;
     margin-bottom: 14px;
 }
@@ -197,19 +191,10 @@ hr{
     justify-content: center;
 }
 
-/* .soci{
-    border-radius: 50%;
-    background-color: #6D4321;
-} */
-
-/* .soci i{
-    color: #E2AB7F;
-    font-size: 36px;
-} */
-
-.ico{
+.svgs{
     width: 37px;
     height: 37px;
     margin: 5px;
+    /* background-color: #00000027; */
+    border-radius: 50%;
 }
-
