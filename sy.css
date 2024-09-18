@@ -79,7 +79,7 @@ textarea {
 
 .submit-btn {
     padding: 15px 30px;
-    background-color: #82215d96;
+    background-color:#7a3555 ;
     border: none;
     border-radius: 5px;
     color: white;
@@ -91,7 +91,7 @@ textarea {
 }
 
 .submit-btn:hover {
-    background-color: #7a3555;
+    background-color: #6d213f;
 }
 
 .container{
@@ -169,7 +169,7 @@ hr{
 }
 
 .icon{
-    color:#82215d96;
+    color:#7a3555;
     font-size: 36px;
     margin-bottom: 14px;
 }
